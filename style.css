@@ -1,0 +1,47 @@
+/* *{
+    margin : 0 auto 
+} */
+
+header{
+    border: solid 3px #b84c65;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    border: solid 2px #b54c65be;
+    height: 60px;
+    width: 10%;
+}
+
+nav{
+    border: solid 2px #ff97b0be;
+    height: 60px;
+    width: 50%;
+}
+
+.menu{
+    border: solid 2px #e00f40be;
+    height: 60px;
+    width: 40%;
+}
+
+
+
+main{
+    border: solid 2px #50c15fbe;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    border: solid 2px #bebe1dbe;
+    height: 260px;
+    width: 80%;
+
+}
+
