@@ -20,12 +20,16 @@ nav{
     border: solid 2px #ff97b0be;
     height: 60px;
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .menu{
     border: solid 2px #e00f40be;
     height: 60px;
     width: 40%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -45,3 +49,21 @@ main{
 
 }
 
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+}
+
+.pesq{
+    border: solid 2px #e00f40be;
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+}
