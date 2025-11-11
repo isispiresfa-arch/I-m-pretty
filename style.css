@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-items: center;
     align-items: center;
+    background-color: #fff8f8;
 }
 .logo{
     border: solid 2px #b54c65be;
@@ -61,9 +62,20 @@ nav ul{
 
 .pesq{
     border: solid 2px #e00f40be;
-    height: 60px;
-    width: 30%;
+    height: 38px;
+    width: 67%;
     display: flex;
     align-items: center;
     border-radius: 45px;
 }
+.perfil{
+    fill:#ed99d7;
+    height: 25px;
+    width: 35px;
+}
+.compras{
+    fill:#ed99d7;
+    height: 25px;
+    width: 35px; 
+}
+
