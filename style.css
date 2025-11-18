@@ -79,3 +79,142 @@ nav ul{
     width: 35px; 
 }
 
+
+/* CSS de produtos */
+
+.produtos{
+    width: 100%;
+    height: 300px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pr1{
+    width: 22%;
+    height: 160px;
+    border: solid 1px rgb(32, 184, 29);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.pr2{
+    width: 22%;
+    height: 160px;
+    border: solid 1px rgb(188, 74, 12);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr3{
+    width: 22%;
+    height: 160px;
+    border: solid 1px rgb(192, 17, 211);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr4{
+    width: 22%;
+    height: 160px;
+    border: solid 1px rgb(15, 85, 237);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 80%;
+    height: 140px;
+    border: solid 1px lavender;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #b84c65;
+}
+
+.img2{
+    width: 80%;
+    height: 140px;
+    border: solid 1px lavender;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ea97aa;
+}
+
+.img3{
+    width: 80%;
+    height: 140px;
+    border: solid 1px lavender;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f7cad5;
+}
+
+.img4{
+    width: 80%;
+    height: 140px;
+    border: solid 1px lavender;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #c02f51;
+}
+/* Final de produtos*/ 
+footer{
+    width: 100%;
+    height: 120px;
+    border: solid 1px rgb(184, 24, 24);
+    display: flex;
+    background-color: #ba1065d0;
+}
+ .rodape{
+    width: 100%;
+    height:198px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .rodinfo1{
+    width: 20%;
+    border: #35bb64 solid 1px;
+    height: 170px;
+ }
+
+.titulorod{
+    height: 40px;
+    width:100%;
+    border: #50c15fbe 1px solid;
+}
+
+.lista-rod{
+    height: 100px;
+    width:100%;
+    border: #a7b710be 1px solid;
+}
+
+
+
+
+
+ .rodinfo2{
+    width: 20%;
+    border: #ed6fcbdf solid 1px;
+    height: 170px;
+ }
+ .rodinfo3{
+    width: 20%;
+    border: #ed99d7 solid 1px;
+    height: 170px;
+ }
+ .rodinfo4{
+    width: 20%;
+    border: #b6158b solid 1px;
+    height: 170px;
+ }
