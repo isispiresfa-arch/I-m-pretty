@@ -2,6 +2,10 @@
     margin : 0 auto 
 } */
 
+body{
+    background-color: #fff8f8;
+ }
+
 header{
     border: solid 3px #b84c65;
     height: 80px;
@@ -12,7 +16,7 @@ header{
     background-color: #fff8f8;
 }
 .logo{
-    border: solid 2px #b54c65be;
+    border: solid 2px hsla(346, 70%, 57%, 0.745);
     height: 60px;
     width: 10%;
 }
@@ -181,16 +185,17 @@ footer{
     align-items: center;
  }
 
- .rodinfo1{
+ .rodinfo{
     width: 20%;
     border: #35bb64 solid 1px;
-    height: 170px;
+    height: 118px;
  }
 
 .titulorod{
     height: 40px;
     width:100%;
     border: #50c15fbe 1px solid;
+    text-align: center;
 }
 
 .lista-rod{
@@ -199,22 +204,15 @@ footer{
     border: #a7b710be 1px solid;
 }
 
-
-
-
-
- .rodinfo2{
-    width: 20%;
-    border: #ed6fcbdf solid 1px;
-    height: 170px;
- }
- .rodinfo3{
-    width: 20%;
-    border: #ed99d7 solid 1px;
-    height: 170px;
- }
- .rodinfo4{
-    width: 20%;
-    border: #b6158b solid 1px;
-    height: 170px;
- }
+.rodinfo.rod2{
+    
+}
+ 
+.botaoRod{
+    background-color:#ea97aa ;
+    padding: 5px;
+    width: 84px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
