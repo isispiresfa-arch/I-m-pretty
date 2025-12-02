@@ -13,12 +13,21 @@ header{
     display: flex;
     justify-items: center;
     align-items: center;
-    background-color: #fff8f8;
+    background-color: #b84c65;
 }
 .logo{
     border: solid 2px hsla(346, 70%, 57%, 0.745);
     height: 60px;
     width: 10%;
+}
+
+.logo img{
+    width: 160px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    position: relative;
+    bottom: 9px;
+
 }
 
 nav{
@@ -62,6 +71,15 @@ nav ul{
     width: 100%;
     padding: 0;
     align-items: center;
+}
+
+nav li {
+    background-color: #fff8f8;
+    padding: 12px;
+    width: 85px;
+    border-radius: 27px;
+    text-align: center;
+    color: #ef88a2;
 }
 
 .pesq{
@@ -133,41 +151,83 @@ nav ul{
     align-items: center;
 }
 
-.img1{
+.background1{
     width: 80%;
     height: 140px;
     border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #b84c65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img2{
+.background2{
     width: 80%;
     height: 140px;
     border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #ea97aa;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img3{
+.background3{
     width: 80%;
     height: 140px;
     border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
-    background-color: #f7cad5;
+    background-color: #f7cad5; display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img4{
+.background4{
     width: 80%;
     height: 140px;
     border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #c02f51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.imgProd1{
+    width: 60%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #000000;
+    background-image: url("./imagens/cabelo.jpg");
+    background-size: cover;
+}
+
+.imgProd2{
+    width: 60%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url("./imagens/make.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1px -42px; 
+}
+
+.imgProd3{
+    width: 60%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url("./imagens/corpo3.jpg");
+    background-size: cover;
+}
+
+
 /* Final de produtos*/ 
 footer{
     width: 100%;
@@ -216,3 +276,4 @@ footer{
     border: none;
     color: white;
 }
+
