@@ -15,7 +15,6 @@ body{
  }
 
 header{
-    border: solid 3px #b84c65;
     height: 80px;
     width: 100%;
     display: flex;
@@ -24,7 +23,6 @@ header{
     background-color: #b84c65;
 }
 .logo{
-    border: solid 2px hsla(346, 70%, 57%, 0.745);
     height: 60px;
     width: 10%;
 }
@@ -39,7 +37,6 @@ header{
 }
 
 nav{
-    border: solid 2px #ff97b0be;
     height: 60px;
     width: 50%;
     display: flex;
@@ -47,7 +44,6 @@ nav{
 }
 
 .menu{
-    border: solid 2px #e00f40be;
     height: 60px;
     width: 40%;
     display: flex;
@@ -57,7 +53,6 @@ nav{
 
 
 main{
-    border: solid 2px #50c15fbe;
     height: 300px;
     display: flex;
     align-items: center;
@@ -69,6 +64,7 @@ main{
     width: 100%;
     height: 300px;
     justify-content: center;
+    margin-top: 60px;
 }
 
 nav ul{
@@ -115,16 +111,15 @@ nav li {
 .produtos{
     width: 100%;
     height: 300px;
-    border: solid 1px black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .pr1{
     width: 22%;
     height: 160px;
-    border: solid 1px rgb(32, 184, 29);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +130,6 @@ nav li {
 .pr2{
     width: 22%;
     height: 160px;
-    border: solid 1px rgb(188, 74, 12);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +138,6 @@ nav li {
 .pr3{
     width: 22%;
     height: 160px;
-    border: solid 1px rgb(192, 17, 211);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +146,6 @@ nav li {
 .pr4{
     width: 22%;
     height: 160px;
-    border: solid 1px rgb(15, 85, 237);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +154,6 @@ nav li {
 .background1{
     width: 80%;
     height: 140px;
-    border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #b84c65;
@@ -174,7 +165,6 @@ nav li {
 .background2{
     width: 80%;
     height: 140px;
-    border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #ea97aa;
@@ -186,7 +176,6 @@ nav li {
 .background3{
     width: 80%;
     height: 140px;
-    border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #f7cad5; display: flex;
@@ -197,7 +186,6 @@ nav li {
 .background4{
     width: 80%;
     height: 140px;
-    border: solid 1px lavender;
     align-items: center;
     border-radius: 10px;
     background-color: #c02f51;
@@ -210,7 +198,7 @@ nav li {
     width: 60%;
     height: 120px;
     border-radius: 10px;
-    background-color: #000000;
+    background-color: #ffffff;
     background-image: url("./imagens/cabelo.jpg");
     background-size: cover;
 }
@@ -235,19 +223,30 @@ nav li {
     background-size: cover;
 }
 
+.imgProd4{
+    width: 60%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url("imagens/produto.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 /* Final de produtos*/ 
 footer{
     width: 100%;
     height: 120px;
-    border: solid 1px rgb(184, 24, 24);
     display: flex;
     background-color: #ba1065d0;
+    position: absolute;
+    bottom: 0;
 }
  .rodape{
     width: 100%;
     height:198px;
-    border: solid 1px black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -255,26 +254,31 @@ footer{
 
  .rodinfo{
     width: 20%;
-    border: #35bb64 solid 1px;
     height: 118px;
  }
 
 .titulorod{
     height: 40px;
     width:100%;
-    border: #50c15fbe 1px solid;
     text-align: center;
+    color: #f7cad5;
+    font-size: 25px;
 }
 
 .lista-rod{
     height: 100px;
     width:100%;
-    border: #a7b710be 1px solid;
+    display: flex;
+    justify-content: center;
 }
+ .lista-rod ul{
+    list-style-type: none;
+    padding: 0;
+    color: #f7cad5;
+    text-align: center;
+ }
 
-.rodinfo.rod2{
-    background-color: #b84c65;
-}
+
  
 .botaoRod{
     background-color:#ea97aa ;
